@@ -611,11 +611,11 @@ namespace vMenuClient
             {
                 menu.AddMenuItem(thermalVision);
             }
-            if (IsAllowed(Permission.MSLocationBlips))
-            {
-                menu.AddMenuItem(locationBlips);
-                ToggleBlips(ShowLocationBlips);
-            }
+            // if (IsAllowed(Permission.MSLocationBlips))
+            // {
+            //     menu.AddMenuItem(locationBlips);
+            //     ToggleBlips(ShowLocationBlips);
+            // }
             if (IsAllowed(Permission.MSPlayerBlips))
             {
                 menu.AddMenuItem(playerBlips);
@@ -728,11 +728,11 @@ namespace vMenuClient
                 {
                     LockCameraY = _checked;
                 }
-                else if (item == locationBlips)
-                {
-                    ToggleBlips(_checked);
-                    ShowLocationBlips = _checked;
-                }
+                // else if (item == locationBlips)
+                // {
+                //     ToggleBlips(_checked);
+                //     ShowLocationBlips = _checked;
+                // }
                 else if (item == playerBlips)
                 {
                     ShowPlayerBlips = _checked;
@@ -823,7 +823,7 @@ namespace vMenuClient
         /// Toggles blips on/off.
         /// </summary>
         /// <param name="enable"></param>
-        private void ToggleBlips(bool enable)
+        public void ToggleBlips(bool enable)
         {
             if (enable)
             {
