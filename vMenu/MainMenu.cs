@@ -579,24 +579,6 @@ namespace vMenuClient
                     }
                 };
             }
-            if (IsAllowed(Permission.OPUnban) || IsAllowed(Permission.OPViewBannedPlayers))
-            {
-                BannedPlayersMenu = new BannedPlayers();
-                Menu menu = BannedPlayersMenu.GetMenu();
-                MenuItem button = new MenuItem("Banned Players", "View and manage all banned players in this menu.")
-                {
-                    Label = "→→→"
-                };
-                AddMenu(Menu, menu, button);
-                Menu.OnItemSelect += (sender, item, index) =>
-                {
-                    if (item == button)
-                    {
-                        TriggerServerEvent("vMenu:RequestBanList", Game.Player.Handle);
-                        menu.RefreshIndex();
-                    }
-                };
-            }
 
             MenuItem playerSubmenuBtn = new MenuItem("Player Related Options", "Open this submenu for player related subcategories.") { Label = "→→→" };
             Menu.AddMenuItem(playerSubmenuBtn);
@@ -743,30 +725,18 @@ namespace vMenuClient
                 AddMenu(PlayerSubmenu, menu, button);
             }
 
-            if (IsAllowed(Permission.NoClip))
-            {
-                MenuItem toggleNoclip = new MenuItem("Toggle NoClip", "Toggle NoClip on or off.");
-                PlayerSubmenu.AddMenuItem(toggleNoclip);
-                PlayerSubmenu.OnItemSelect += (sender, item, index) =>
-                {
-                    if (item == toggleNoclip)
-                    {
-                        NoClipEnabled = !NoClipEnabled;
-                    }
-                };
-            }
-
-            // Add Voice Chat Menu.
-            if (IsAllowed(Permission.VCMenu))
-            {
-                VoiceChatSettingsMenu = new VoiceChat();
-                Menu menu = VoiceChatSettingsMenu.GetMenu();
-                MenuItem button = new MenuItem("Voice Chat Settings", "Change Voice Chat options here.")
-                {
-                    Label = "→→→"
-                };
-                AddMenu(Menu, menu, button);
-            }
+            // if (IsAllowed(Permission.NoClip))
+            // {
+            //     MenuItem toggleNoclip = new MenuItem("Toggle NoClip", "Toggle NoClip on or off.");
+            //     PlayerSubmenu.AddMenuItem(toggleNoclip);
+            //     PlayerSubmenu.OnItemSelect += (sender, item, index) =>
+            //     {
+            //         if (item == toggleNoclip)
+            //         {
+            //             NoClipEnabled = !NoClipEnabled;
+            //         }
+            //     };
+            // }
 
             {
                 RecordingMenu = new Recording();
@@ -778,16 +748,16 @@ namespace vMenuClient
                 AddMenu(Menu, menu, button);
             }
 
-            // Add misc settings menu.
-            {
-                MiscSettingsMenu = new MiscSettings();
-                Menu menu = MiscSettingsMenu.GetMenu();
-                MenuItem button = new MenuItem("Misc Settings", "Miscellaneous vMenu options/settings can be configured here. You can also save your settings in this menu.")
-                {
-                    Label = "→→→"
-                };
-                AddMenu(Menu, menu, button);
-            }
+            // // Add misc settings menu.
+            // {
+            //     MiscSettingsMenu = new MiscSettings();
+            //     Menu menu = MiscSettingsMenu.GetMenu();
+            //     MenuItem button = new MenuItem("Misc Settings", "Miscellaneous vMenu options/settings can be configured here. You can also save your settings in this menu.")
+            //     {
+            //         Label = "→→→"
+            //     };
+            //     AddMenu(Menu, menu, button);
+            // }
 
             // Add About Menu.
             AboutMenu = new About();
