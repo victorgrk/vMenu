@@ -741,7 +741,7 @@ namespace vMenuClient
                 "SANCHEZ",
                 "SANCHEZ2",
                 "SANCTUS",
-                "SHINOBI"
+                "SHINOBI",
                 "SHOTARO",
                 "SOVEREIGN",
                 "STRYDER", // CASINO HEIST (MPHEIST3) DLC - Requires b2060
