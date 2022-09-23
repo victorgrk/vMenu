@@ -829,19 +829,19 @@ namespace vMenuClient
             {
                 try
                 {
-                    foreach (var bl in vMenuShared.ConfigManager.GetLocationBlipsData())
-                    {
-                        int blipID = AddBlipForCoord(bl.coordinates.X, bl.coordinates.Y, bl.coordinates.Z);
-                        SetBlipSprite(blipID, bl.spriteID);
-                        BeginTextCommandSetBlipName("STRING");
-                        AddTextComponentSubstringPlayerName(bl.name);
-                        EndTextCommandSetBlipName(blipID);
-                        SetBlipColour(blipID, bl.color);
-                        SetBlipAsShortRange(blipID, true);
+                    // foreach (var bl in vMenuShared.ConfigManager.GetLocationBlipsData())
+                    // {
+                    //     int blipID = AddBlipForCoord(bl.coordinates.X, bl.coordinates.Y, bl.coordinates.Z);
+                    //     SetBlipSprite(blipID, bl.spriteID);
+                    //     BeginTextCommandSetBlipName("STRING");
+                    //     AddTextComponentSubstringPlayerName(bl.name);
+                    //     EndTextCommandSetBlipName(blipID);
+                    //     SetBlipColour(blipID, bl.color);
+                    //     SetBlipAsShortRange(blipID, true);
 
-                        Blip b = new Blip(bl.coordinates, bl.spriteID, bl.name, bl.color, blipID);
-                        blips.Add(b);
-                    }
+                    //     Blip b = new Blip(bl.coordinates, bl.spriteID, bl.name, bl.color, blipID);
+                    //     blips.Add(b);
+                    // }
                 }
                 catch (JsonReaderException ex)
                 {
