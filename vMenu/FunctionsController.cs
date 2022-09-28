@@ -812,7 +812,8 @@ namespace vMenuClient
         private void ShowSpeedKmh()
         {
             int speed = int.Parse(Math.Round(GetEntitySpeed(GetVehicle().Handle) * 3.6f).ToString());
-            DrawTextOnScreen($"{speed} KM/h", 0.5f, 0.87f, 0.7f, Alignment.Right, 4);
+            DrawTextOnScreen(speed, 0.5f, 0.87f, 0.7f, Alignment.Center, 4);
+            DrawTextOnScreen("KM/h", 0.5f, 0.95f, 0.7f, Alignment.Center, 4);
         }
 
         /// <summary>
@@ -821,17 +822,17 @@ namespace vMenuClient
         /// </summary>
         private void ShowSpeedMph()
         {
-            var speed = Math.Round(GetEntitySpeed(GetVehicle().Handle) * 2.23694f);
+            // var speed = Math.Round(GetEntitySpeed(GetVehicle().Handle) * 2.23694f);
 
-            if (MainMenu.MiscSettingsMenu.ShowSpeedoKmh)
-            {
-                DrawTextOnScreen($"{speed} MPH", 0.5f, 0.88f, 0.7f, Alignment.Right, 4);
-                HideHudComponentThisFrame((int)HudComponent.StreetName);
-            }
-            else
-            {
-                DrawTextOnScreen($"{speed} MPH", 0.5f, 0.87f, 0.7f, Alignment.Right, 4);
-            }
+            // if (MainMenu.MiscSettingsMenu.ShowSpeedoKmh)
+            // {
+            //     DrawTextOnScreen($"{speed} MPH", 0.5f, 0.88f, 0.7f, Alignment.Right, 4);
+            //     HideHudComponentThisFrame((int)HudComponent.StreetName);
+            // }
+            // else
+            // {
+            //     DrawTextOnScreen($"{speed} MPH", 0.5f, 0.87f, 0.7f, Alignment.Right, 4);
+            // }
         }
         #endregion
 
