@@ -812,7 +812,7 @@ namespace vMenuClient
         private void ShowSpeedKmh()
         {
             int speed = int.Parse(Math.Round(GetEntitySpeed(GetVehicle().Handle) * 3.6f).ToString());
-            DrawTextOnScreen($"{speed} KM/h", 0.995f, 0.955f, 0.7f, Alignment.Right, 4);
+            DrawTextOnScreen($"{speed} KM/h", 0.5f, 0.87f, 0.7f, Alignment.Right, 4);
         }
 
         /// <summary>
@@ -825,12 +825,12 @@ namespace vMenuClient
 
             if (MainMenu.MiscSettingsMenu.ShowSpeedoKmh)
             {
-                DrawTextOnScreen($"{speed} MPH", 0.995f, 0.925f, 0.7f, Alignment.Right, 4);
+                DrawTextOnScreen($"{speed} MPH", 0.5f, 0.88f, 0.7f, Alignment.Right, 4);
                 HideHudComponentThisFrame((int)HudComponent.StreetName);
             }
             else
             {
-                DrawTextOnScreen($"{speed} MPH", 0.995f, 0.955f, 0.7f, Alignment.Right, 4);
+                DrawTextOnScreen($"{speed} MPH", 0.5f, 0.87f, 0.7f, Alignment.Right, 4);
             }
         }
         #endregion
