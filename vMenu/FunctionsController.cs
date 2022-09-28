@@ -813,7 +813,7 @@ namespace vMenuClient
         {
             int speed = int.Parse(Math.Round(GetEntitySpeed(GetVehicle().Handle) * 3.6f).ToString());
             DrawTextOnScreen($"{speed}", 0.5f, 0.87f, 0.7f, Alignment.Center, 4);
-            DrawTextOnScreen("KM/h", 0.5f, 0.95f, 0.7f, Alignment.Center, 4);
+            DrawTextOnScreen("KM/h", 0.5f, 0.35f, 0.7f, Alignment.Center, 4);
         }
 
         /// <summary>
