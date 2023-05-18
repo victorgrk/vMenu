@@ -281,6 +281,7 @@ namespace vMenuClient
                 "ISSI4",
                 "ISSI5",
                 "ISSI6",
+                "ISSI8",
                 "KANJO", // CASINO HEIST (MPHEIST3) DLC - Requires b2060
                 "PANTO",
                 "PRAIRIE",
@@ -404,6 +405,7 @@ namespace vMenuClient
             public static List<string> Muscle { get; } = new List<string>()
             {
                 "BLADE",
+                "BROADWAY",
                 "BUCCANEER",
                 "BUCCANEER2",
                 "BUFFALO4",
@@ -424,6 +426,7 @@ namespace vMenuClient
                 "DUKES2",
                 "DUKES3", // SUMMER SPECIAL (MPSUM) DLC - Requires b2060
                 "ELLIE",
+                "EUDORA",
                 "FACTION",
                 "FACTION2",
                 "FACTION3",
@@ -466,9 +469,11 @@ namespace vMenuClient
                 "SLAMVAN6",
                 "STALION",
                 "STALION2",
+                "TAHOMA",
                 "TAMPA",
                 "TAMPA3",
                 "TULIP",
+                "TULIP2",
                 "VAMOS",
                 "VIGERO",
                 "VIGERO2",
@@ -559,6 +564,7 @@ namespace vMenuClient
                 "ELEGY",
                 "ELEGY2",
                 "EUROS", // LS TUNERS (MPTUNER) DLC - Requires b2372
+                "EVERON2",
                 "FELTZER2",
                 "FLASHGT",
                 "FUROREGT",
@@ -590,11 +596,13 @@ namespace vMenuClient
                 "NINEF2",
                 "OMNIS",
                 "OMNISEGT",
+                "PANTHERE",
                 "PARAGON", // CASINO AND RESORT (MPVINEWOOD) DLC - Requires b2060
                 "PARAGON2", // CASINO AND RESORT (MPVINEWOOD) DLC - Requires b2060
                 "PARIAH",
                 "PENUMBRA",
                 "PENUMBRA2", // SUMMER SPECIAL (MPSUM) DLC - Requires b2060
+                "R300",
                 "RAIDEN",
                 "RAPIDGT",
                 "RAPIDGT2",
@@ -649,6 +657,7 @@ namespace vMenuClient
                 "EMERUS", // CASINO AND RESORT (MPVINEWOOD) DLC - Requires b2060
                 "ENTITYXF",
                 "ENTITY2",
+                "ENTITY3",
                 "FMJ",
                 "FURIA", // CASINO HEIST (MPHEIST3) DLC - Requires b2060
                 "GP1",
@@ -684,6 +693,7 @@ namespace vMenuClient
                 "VACCA",
                 "VAGNER",
                 "VIGILANTE",
+                "VIRTUE",
                 "VISIONE",
                 "VOLTIC",
                 "VOLTIC2",
@@ -729,11 +739,13 @@ namespace vMenuClient
                 "LECTRO",
                 "MANCHEZ",
                 "MANCHEZ2", // CAYO PERICO (MPHEIST4) DLC - Requires b2189
+                "MANCHEZ3",
                 "NEMESIS",
                 "NIGHTBLADE",
                 "OPPRESSOR",
                 "OPPRESSOR2",
                 "PCJ",
+                "POWERSURGE",
                 "RATBIKE",
                 "REEVER",
                 "RROCKET", // CASINO AND RESORT (MPVINEWOOD) DLC - Requires b2060
@@ -765,6 +777,7 @@ namespace vMenuClient
                 "BLAZER4",
                 "BLAZER5",
                 "BODHI2",
+                "BOOR",
                 "BRAWLER",
                 "BRUISER",
                 "BRUISER2",
@@ -918,6 +931,7 @@ namespace vMenuClient
                 "GBURRITO",
                 "GBURRITO2",
                 "JOURNEY",
+                "JOURNEY2",
                 "MINIVAN",
                 "MINIVAN2",
                 "PARADISE",
@@ -931,6 +945,7 @@ namespace vMenuClient
                 "SPEEDO4",
                 "SURFER",
                 "SURFER2",
+                "SURFER3",
                 "TACO",
                 "YOUGA",
                 "YOUGA2",
@@ -1063,12 +1078,14 @@ namespace vMenuClient
             {
                 "AIRBUS",
                 "BRICKADE",
+                "BRICKADE2",
                 "BUS",
                 "COACH",
                 "PBUS2",
                 "RALLYTRUCK",
                 "RENTALBUS",
                 "TAXI",
+                "TAXI2",
                 "TOURBUS",
                 "TRASH",
                 "TRASH2",
