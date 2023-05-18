@@ -182,7 +182,7 @@ namespace vMenuClient
 
         }
 
-
+        /*
         internal static FemaleTattoosCollection FemaleTattoos = new FemaleTattoosCollection()
         {
             TORSO = new List<Tattoo>()
@@ -1312,7 +1312,7 @@ namespace vMenuClient
                 new Tattoo() { collectionName = "multiplayer_overlays", name = "FM_Tat_M_043", gender = 0, zoneId = TattooZone.ZONE_RIGHT_LEG},
             },
         };
-
+        */
 
     }
 }
