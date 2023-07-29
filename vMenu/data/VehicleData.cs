@@ -408,10 +408,13 @@ namespace vMenuClient
                 "BROADWAY",
                 "BUCCANEER",
                 "BUCCANEER2",
+                "BRIGHAM",
                 "BUFFALO4",
+                "BUFFALO5",
                 "CHINO",
                 "CHINO2",
                 "CLIQUE",
+                "CLIQUE2",
                 "COQUETTE3",
                 "DEVIANT",
                 "DOMINATOR",
@@ -435,6 +438,7 @@ namespace vMenuClient
                 "GAUNTLET3", // CASINO AND RESORT (MPVINEWOOD) DLC - Requires b2060
                 "GAUNTLET4", // CASINO AND RESORT (MPVINEWOOD) DLC - Requires b2060
                 "GAUNTLET5", // SUMMER SPECIAL (MPSUM) DLC - Requires b2060
+                "GAUNTLET6", // SUMMER SPECIAL (MPSUM) DLC - Requires b2060
                 "HERMES",
                 "HOTKNIFE",
                 "HUSTLER",
@@ -559,6 +563,7 @@ namespace vMenuClient
                 "COMET7",
                 "COQUETTE",
                 "COQUETTE4", // SUMMER SPECIAL (MPSUM) DLC - Requires b2060
+                "COUREUR",
                 "CYPHER", // LS TUNERS (MPTUNER) DLC - Requires b2372
                 "DRAFTER", // CASINO AND RESORT (MPVINEWOOD) DLC - Requires b2060
                 "ELEGY",
@@ -623,6 +628,7 @@ namespace vMenuClient
                 "SM722",
                 "SPECTER",
                 "SPECTER2",
+                "STINGERTT",
                 "SUGOI", // CASINO HEIST (MPHEIST3) DLC - Requires b2060
                 "SULTAN",
                 "SULTAN2", // CASINO HEIST (MPHEIST3) DLC - Requires b2060
@@ -803,6 +809,7 @@ namespace vMenuClient
                 "INSURGENT3",
                 "KALAHARI",
                 "KAMACHO",
+                "L35",
                 "MARSHALL",
                 "MENACER",
                 "MESA3",
@@ -810,8 +817,10 @@ namespace vMenuClient
                 "MONSTER3",
                 "MONSTER4",
                 "MONSTER5",
+                "MONSTROCITI",
                 "NIGHTSHARK",
                 "OUTLAW", // CASINO HEIST (MPHEIST3) DLC - Requires b2060
+                "RATEL",
                 "PATRIOT3",
                 "RANCHERXL",
                 "RANCHERXL2",
@@ -959,6 +968,8 @@ namespace vMenuClient
                 "BMX",
                 "CRUISER",
                 "FIXTER",
+                "INDUCTOR",
+                "INDUCTOR2",
                 "SCORCHER",
                 "TRIBIKE",
                 "TRIBIKE2",
@@ -1009,6 +1020,7 @@ namespace vMenuClient
                 "CARGOBOB3",
                 "CARGOBOB4",
                 "CONADA",
+                "CONADA2",
                 "FROGGER",
                 "FROGGER2",
                 "HAVOK",
@@ -1036,6 +1048,7 @@ namespace vMenuClient
                 "ALPHAZ1",
                 "AVENGER",
                 "AVENGER2",
+                "AVENGER3",
                 "BESRA",
                 "BLIMP",
                 "BLIMP2",
@@ -1059,10 +1072,12 @@ namespace vMenuClient
                 "NIMBUS",
                 "NOKOTA",
                 "PYRO",
+                "RAIJU",
                 "ROGUE",
                 "SEABREEZE",
                 "SHAMAL",
                 "STARLING",
+                "STREAMER216",
                 "STRIKEFORCE",
                 "STUNT",
                 "TITAN",
