@@ -295,6 +295,7 @@ namespace vMenuClient
                 "ASEA",
                 "ASEA2",
                 "ASTEROPE",
+                "ASTEROPE2",
                 "CINQUEMILA",
                 "COG55",
                 "COG552",
@@ -311,6 +312,7 @@ namespace vMenuClient
                 "GREENWOOD",
                 "INGOT",
                 "INTRUDER",
+                "IMPALER5",
                 "LIMO2",
                 "OMNISEGT",
                 "PREMIER",
@@ -338,6 +340,7 @@ namespace vMenuClient
             #region SUVs
             public static List<string> SUVs { get; } = new List<string>()
             {
+                "ALEUTIAN",
                 "ASTRON",
                 "BALLER",
                 "BALLER2",
@@ -346,10 +349,13 @@ namespace vMenuClient
                 "BALLER5",
                 "BALLER6",
                 "BALLER7",
+                "BALLER8",
                 "BJXL",
                 "CAVALCADE",
                 "CAVALCADE2",
+                "CAVALCADE3",
                 "CONTENDER",
+                "DORADO",
                 "DUBSTA",
                 "DUBSTA2",
                 "FQ2",
@@ -375,6 +381,7 @@ namespace vMenuClient
                 "SERRANO",
                 "SQUADDIE", // CAYO PERICO (MPHEIST4) DLC - Requires b2189
                 "TOROS",
+                "VIVANITE",
                 "XLS",
                 "XLS2",
             };
@@ -387,6 +394,7 @@ namespace vMenuClient
                 "F620",
                 "FELON",
                 "FELON2",
+                "FR36",
                 "JACKAL",
                 "KANJOSJ",
                 "ORACLE",
@@ -425,6 +433,7 @@ namespace vMenuClient
                 "DOMINATOR6",
                 "DOMINATOR7", // LS TUNERS (MPTUNER) DLC - Requires b2372
                 "DOMINATOR8", // LS TUNERS (MPTUNER) DLC - Requires b2372
+                "DOMINATOR9",
                 "DUKES",
                 "DUKES2",
                 "DUKES3", // SUMMER SPECIAL (MPSUM) DLC - Requires b2060
@@ -446,6 +455,7 @@ namespace vMenuClient
                 "IMPALER2",
                 "IMPALER3",
                 "IMPALER4",
+                "IMPALER6",
                 "IMPERATOR",
                 "IMPERATOR2",
                 "IMPERATOR3",
@@ -481,6 +491,7 @@ namespace vMenuClient
                 "VAMOS",
                 "VIGERO",
                 "VIGERO2",
+                "VIGERO3",
                 "VIRGO",
                 "VIRGO2",
                 "VIRGO3",
@@ -638,6 +649,7 @@ namespace vMenuClient
                 "TENF",
                 "TENF2",
                 "TROPOS",
+                "TURISMO3",
                 "VERLIERER2",
                 "VECTRE", // LS TUNERS (MPTUNER) DLC - Requires b2372
                 "VETO", // CAYO PERICO (MPHEIST4) DLC - Requires b2189
@@ -833,6 +845,7 @@ namespace vMenuClient
                 "TECHNICAL",
                 "TECHNICAL2",
                 "TECHNICAL3",
+                "TERMINUS",
                 "TROPHYTRUCK",
                 "TROPHYTRUCK2",
                 "VAGRANT", // CASINO HEIST (MPHEIST3) DLC - Requires b2060
@@ -862,6 +875,7 @@ namespace vMenuClient
             public static List<string> Utility { get; } = new List<string>()
             {
                 "AIRTUG",
+                "BOATTRAILER3",
                 "CADDY",
                 "CADDY2",
                 "CADDY3",
@@ -875,6 +889,7 @@ namespace vMenuClient
                 "SLAMTRUCK", // CAYO PERICO (MPHEIST4) DLC - Requires b2189
                 "TOWTRUCK",
                 "TOWTRUCK2",
+                "TOWTRUCK3",
                 "TRACTOR", // Tractor (rusted/old)
                 "TRACTOR2", // Fieldmaster
                 "TRACTOR3", // Fieldmaster
@@ -898,10 +913,12 @@ namespace vMenuClient
                 "TR4", // Large Vehicle Trailer (Mission Cars)
                 "TRFLAT", // Large Flatbed Empty Trailer
                 "TRAILERS", // Container/Curtain Trailer
-                "TRAILERS4", // White Container Trailer
                 "TRAILERS2", // Box Trailer
                 "TRAILERS3", // Ramp Box Trailer
+                "TRAILERS4", // White Container Trailer
+                "TRAILERS5", // Ramp Box Trailer
                 "TVTRAILER", // Fame or Shame Trailer
+                "TVTRAILER2", // Fame or Shame Trailer
                 "TRAILERLOGS", // Logs Trailer
                 "TANKER", // Ron Oil Tanker Trailer
                 "TANKER2", // Ron Oil Tanker Trailer (Heist Version)
@@ -931,6 +948,7 @@ namespace vMenuClient
                 "BOXVILLE3",
                 "BOXVILLE4",
                 "BOXVILLE5",
+                "BOXVILLE6",
                 "BURRITO",
                 "BURRITO2",
                 "BURRITO3",
@@ -1092,6 +1110,7 @@ namespace vMenuClient
             public static List<string> Service { get; } = new List<string>()
             {
                 "AIRBUS",
+                "BENSON",
                 "BRICKADE",
                 "BRICKADE2",
                 "BUS",
@@ -1116,10 +1135,12 @@ namespace vMenuClient
                 "FIRETRUK",
                 "LGUARD",
                 "PBUS",
+                "POLGAUNTLET",
                 "POLICE",
                 "POLICE2",
                 "POLICE3",
                 "POLICE4",
+                "POLICE5",
                 "POLICEB",
                 "POLICEOLD1",
                 "POLICEOLD2",
@@ -1173,6 +1194,7 @@ namespace vMenuClient
                 "PHANTOM",
                 "PHANTOM2",
                 "PHANTOM3",
+                "PHANTOM4",
                 "POUNDER",
                 "POUNDER2",
                 "STOCKADE",
