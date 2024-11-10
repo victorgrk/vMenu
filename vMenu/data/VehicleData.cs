@@ -332,6 +332,7 @@ namespace vMenuClient
                 "SURGE",
                 "TAILGATER",
                 "TAILGATER2", // LS TUNERS (MPTUNER) DLC - Requires b2372
+                "VORSCHLAGHAMMER",
                 "WARRENER",
                 "WARRENER2", // LS TUNERS (MPTUNER) DLC - Requires b2372
                 "WASHINGTON",
@@ -351,6 +352,7 @@ namespace vMenuClient
                 "BALLER7",
                 "BALLER8",
                 "BJXL",
+                "CASTIGATOR",
                 "CAVALCADE",
                 "CAVALCADE2",
                 "CAVALCADE3",
@@ -434,6 +436,7 @@ namespace vMenuClient
                 "DOMINATOR7", // LS TUNERS (MPTUNER) DLC - Requires b2372
                 "DOMINATOR8", // LS TUNERS (MPTUNER) DLC - Requires b2372
                 "DOMINATOR9",
+                "DOMINATOR10",
                 "DUKES",
                 "DUKES2",
                 "DUKES3", // SUMMER SPECIAL (MPSUM) DLC - Requires b2060
@@ -513,8 +516,10 @@ namespace vMenuClient
                 "CHEBUREK",
                 "CHEETAH2",
                 "COQUETTE2",
+                "COQUETTE5",
                 "DELUXO",
                 "DYNASTY", // CASINO AND RESORT (MPVINEWOOD) DLC - Requires b2060
+                "EUROSX32",
                 "FAGALOA",
                 "FELTZER3", // Stirling GT
                 "GT500",
@@ -579,6 +584,7 @@ namespace vMenuClient
                 "DRAFTER", // CASINO AND RESORT (MPVINEWOOD) DLC - Requires b2060
                 "ELEGY",
                 "ELEGY2",
+                "ENVISAGE",
                 "EUROS", // LS TUNERS (MPTUNER) DLC - Requires b2372
                 "EVERON2",
                 "FELTZER2",
@@ -610,11 +616,13 @@ namespace vMenuClient
                 "NEON",
                 "NINEF",
                 "NINEF2",
+                "NIOBE",
                 "OMNIS",
                 "OMNISEGT",
                 "PANTHERE",
                 "PARAGON", // CASINO AND RESORT (MPVINEWOOD) DLC - Requires b2060
                 "PARAGON2", // CASINO AND RESORT (MPVINEWOOD) DLC - Requires b2060
+                "PARAGON3",
                 "PARIAH",
                 "PENUMBRA",
                 "PENUMBRA2", // SUMMER SPECIAL (MPSUM) DLC - Requires b2060
@@ -691,6 +699,7 @@ namespace vMenuClient
                 "OSIRIS",
                 "PENETRATOR",
                 "PFISTER811",
+                "PIPISTRELLO",
                 "PROTOTIPO",
                 "REAPER",
                 "S80", // CASINO AND RESORT (MPVINEWOOD) DLC - Requires b2060
@@ -763,6 +772,7 @@ namespace vMenuClient
                 "OPPRESSOR",
                 "OPPRESSOR2",
                 "PCJ",
+                "PIZZABOY",
                 "POWERSURGE",
                 "RATBIKE",
                 "REEVER",
@@ -852,6 +862,7 @@ namespace vMenuClient
                 "VERUS", // CAYO PERICO (MPHEIST4) DLC - Requires b2189
                 "WINKY", // CAYO PERICO (MPHEIST4) DLC - Requires b2189
                 "YOSEMITE3", // SUMMER SPECIAL (MPSUM) DLC - Requires b2060
+                "YOSEMITE1500",
                 "ZHABA", // CASINO HEIST (MPHEIST3) DLC - Requires b2060
             };
             #endregion
@@ -1135,7 +1146,10 @@ namespace vMenuClient
                 "FIRETRUK",
                 "LGUARD",
                 "PBUS",
+                "POLDOMINATOR10",
+                "POLDORADO",
                 "POLGAUNTLET",
+                "POLGREENWOOD",
                 "POLICE",
                 "POLICE2",
                 "POLICE3",
@@ -1145,6 +1159,9 @@ namespace vMenuClient
                 "POLICEOLD1",
                 "POLICEOLD2",
                 "POLICET",
+                "POLICET3",
+                "POLIMPALER5",
+                "POLIMPALER6",
                 "POLMAV",
                 "PRANGER",
                 "PREDATOR",
